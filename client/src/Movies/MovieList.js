@@ -6,7 +6,7 @@ export default function MovieList(props) {
 
   return (
     <div className="movie-list">
-      {/*  Use Link from React Router Dom to make each movie clickable */}
+       Use Link from React Router Dom to make each movie clickable
       {movies.map(movie => (
      
         <div className="movie-card">
